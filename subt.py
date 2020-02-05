@@ -51,7 +51,7 @@ ffmpeg_extract_subclip("Dexter.mp4", startsec, 95.0, targetname="trim"+str(33)+"
 
 """ this one is working, cpnverting start and end time to float seconds"""
 """ffmpeg_extract_subclip(path of file, startsecond, endsecond, sink file)"""
-"""TestComment"""
+"""TestCommentUpdated"""
 for i in range(1,4):
   start = (sub[i].start.to_time())
   end =  (sub[i].end.to_time())
